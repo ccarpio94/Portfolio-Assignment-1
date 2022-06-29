@@ -45,19 +45,19 @@ function NavBar () {
             <img src={logo} className={classes.logo} alt=""></img>
             <img src={logoMobile} className={classes.logoMobile} alt=""></img>
             <Typography variants="h6" className={classes.menuItem}>
-                About
+                Bio
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
-                Blog
+                Experience
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
-                Careers
+                Learning
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
                 Demos
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
-                Contact Us
+                Contact Me
             </Typography>
             <CustomButton txt="Try Our Product for Free"></CustomButton>
         </Toolbar>
