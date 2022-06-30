@@ -74,10 +74,7 @@ function App() {
 
       <div className={classes.wrapper}>
         <Typography variant="h4" className={classes.bigSpace} color="primary">
-          At Rocket.io we are passionate about software
-        </Typography>
-        <Typography variant="h5" className={classes.littleSpace} color="primary">
-          This is my React Demo page created on Thursday, January 6th 2022. 
+          Welcome to my Developer Portfolio
         </Typography>
       </div>
       
