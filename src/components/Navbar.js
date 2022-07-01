@@ -6,29 +6,17 @@ import {makeStyles} from "@material-ui/core/styles";
 const styles = makeStyles({
     bar:{
         paddingTop: "1.15rem",
-        backgroundColor: "#fff",
+        backgroundColor: "#2f3036",
         '@media (max-width:780px)': {
             flexDirection: "column"
         }
     },
-    logo:{
-        width: "15%",
-        '@media (max-width:780px)': {
-            display: "none"
-        }
-    },
-    logoMobile:{
-        width: "100%",
-        display: "none",
-        '@media (max-width:780px)': {
-            display: "incline-block"
-        }
-    },
     menuItem:{
         cursor: "pointer",
+        color: "#fff",
         flexGrow: 1,
         "&:hover": {
-            color: "#4f25c8"
+            color: "#108589"
         },
         '@media (max-width:780px)': {
             paddingBottom: "1rem"
@@ -39,7 +27,7 @@ const styles = makeStyles({
 function NavBar () {
     const classes = styles()
     return (
-        <Toolbar position="sticky" colors="rgba(0, 0, 0.87)" className={classes.bar}>
+        <Toolbar position="sticky" colors="rgba(0, 0, 0.87)"className={classes.bar}>
             <Typography variants="h6" className={classes.menuItem}>
                 About Me
             </Typography>
@@ -47,12 +35,12 @@ function NavBar () {
                 Work Experience
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
-                MIT xPro Projects
+                My Projects
             </Typography>
             <Typography variants="h6" className={classes.menuItem}>
                 Contact Me
             </Typography>
-            <CustomButton txt="Try Our Product for Free"></CustomButton>
+            <CustomButton txt="Visit my GitHub Page"></CustomButton>
         </Toolbar>
     )
 }
